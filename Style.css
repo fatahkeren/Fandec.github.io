@@ -1,0 +1,173 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+
+
+ul li {
+    display: inline-block;
+    font-size: 20px;
+    float: right;
+    padding-left: 20px;
+}
+
+li a {
+    color: rgb(250, 245, 249);
+    text-decoration: none;
+}
+
+.button {
+    background-color: rgba(186, 186, 186, 0.467);
+    border-radius: 4px;
+    padding: 5px;
+}
+.button:hover {
+    background-color: aliceblue;
+    transition-duration: 1s;
+}
+li a:hover {
+    color: rgb(0, 0, 0);
+    border-radius: 4px;
+    padding: 5px;
+    transition-duration: 1s;
+}
+
+.active {
+    color: rgb(251, 247, 251);
+}
+
+.navbar {
+    background-color: rgba(35, 74, 118, 0.6);
+    padding: 20px;
+    margin-bottom: 40px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+.judul {
+    float: left;
+    font-size: 30px;
+}
+
+h1 {
+    font-variant: small-caps;
+    color: rgba(14, 120, 136, 0.767);
+    font-size: 40px;
+}
+.judul {
+    color: aqua ;
+}
+body {
+    font:italic normal bolder 16px/18px helvetica, arial, sans-serif;
+}
+
+p {
+    color: rgb(244, 249, 251);
+    text-align:left;
+    text-indent: 50px;
+    text-transform: none;
+    word-spacing: 5px;
+}
+html {
+    background-image: url(back.jpg);
+    background-size: cover;
+    background-position: 0 0;
+}
+.container h1 {
+    padding-bottom: 30px;
+}
+.container {
+    margin: auto;
+    width: 800px;
+}
+
+.img {
+    background-image: url(img.jpg);
+    width: 250px;
+    height: 250px;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid silver;
+    box-shadow: 2px 2px 2px 2px;
+    float: left;
+}
+
+.copy {
+    background-color: rgba(55, 165, 255, 0.596);
+    border-top-left-radius: 10px;
+    color: rgba(167, 167, 167, 0.765);
+    padding: 8px;
+    font-size: 15px;
+    float: right;
+}
+
+.galery {
+    margin: 30px;
+    margin-top: -20px;
+}
+.galery img {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    float: left;
+    box-shadow: 0px 0px 3px 3px silver;
+    margin: 25px;
+}
